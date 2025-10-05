@@ -37,4 +37,13 @@ int main()
     
     */
     cout<<(sayi2=sayi1=15);
+
+    /*
+    
+        () operatörüleri işlem önceliği için kullanılabilir.
+
+        cout içerisindeki () operatörlerini kaldırırsanız derleme hatası oluşacaktır.
+
+        çünkü << operatörü = operatöründen daha önce çalışmaktadır.
+    */
 }

@@ -53,6 +53,18 @@ int main()
     sayi1 = 15;
     sayi2 =0;
     
-    sonuc = sayi1&&sayi2;
+    sonuc = sayi1&&sayi2;   //ve operatörü. 
+
+    /*
+    
+        &&(ve) operatörü iki operandınında doğru olması durumunda işlem sonucu doğru olacaktır.
+        aksi durumda işlem yanlış yani 0 olacaktır.
+
+        C++ programlama dili yanlış(false) değer için 0 sayısını kullanmaktadır.
+        doğru değer olarak 0 dışındaki bütün değerler kabul edilebilir olmaktadır.
+        (Makinede bu şekilde çalışmaktadır.)
+    
+        sayi1&&sayi2  ===>  15&&0   ===>  0
+    */
 
 }
