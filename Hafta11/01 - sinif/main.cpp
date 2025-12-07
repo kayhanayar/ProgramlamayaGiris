@@ -48,4 +48,15 @@ int main()
 	d1.yukseklik = 20;
 
 	cout<<d1.alanHesapla()<<endl;
+
+
+	/*
+		alanHesapla fonksiyonu bir üye fonksiyondur.
+		yani ait olduğu nesne ile çağrılabilmektedir.
+		
+		alanHesapla() şeklinde çağrı yapamazsınız.
+
+		
+
+	*/
 }
